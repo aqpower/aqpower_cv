@@ -6,6 +6,7 @@ import CDGOLogo from "../images/logos/cdgo.png";
 import ClevertechLogo from "../images/logos/clevertech.png";
 import EvercastLogo from "../images/logos/evercast.svg";
 import Howdy from "../images/logos/howdy.png";
+import { InsIcon } from "@/components/icons/InsIcon";
 import JarockiMeLogo from "../images/logos/jarocki.svg";
 import JojoMobileLogo from "../images/logos/jojomobile.png";
 import MonitoLogo from "../images/logos/monito.svg";
@@ -20,34 +21,29 @@ import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { XIcon } from "@/components/icons/XIcon";
 
 export const RESUME_DATA = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
+  name: "Jiong Xiao",
+  initials: "JX",
+  location: "China, Jiangxi, NanChang",
+  locationLink: "https://www.google.com/maps/place/%E4%B8%AD%E5%9B%BD%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%97%E6%98%8C%E5%B8%82/@28.6808292,115.7395766,11z/data=!3m1!4b1!4m6!3m5!1s0x343ab856f20dafb1:0xf180919945bad83e!8m2!3d28.6820199!4d115.8579399!16zL20vMDIyOW41?entry=ttu",
   about:
     "Full Stack Engineer focused on building products with extra attention to details",
   summary:
     "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
-  personalWebsiteUrl: "https://jarocki.me",
+  avatarUrl: "https://jgox-image-1316409677.cos.ap-guangzhou.myqcloud.com/avatar.png",
+  personalWebsiteUrl: "https://aqpower.cn",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "jiongxnext0809@gmail.com",
+    tel: "+8613657965179",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/aqpower",
         icon: GitHubIcon,
       },
       {
-        name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
-        icon: LinkedInIcon,
-      },
-      {
-        name: "X",
-        url: "https://x.com/BartoszJarocki",
-        icon: XIcon,
+        name: "Ins",
+        url: "https://www.instagram.com/aqpower28/",
+        icon: InsIcon,
       },
     ],
   },
