@@ -49,10 +49,10 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "Wrocław University of Technology",
+      school: "NanChang Hangkong University ",
       degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      start: "2021",
+      end: "2025",
     },
   ],
   work: [
