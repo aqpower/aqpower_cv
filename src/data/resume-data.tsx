@@ -24,9 +24,9 @@ export const RESUME_DATA = {
   location: "China, Jiangxi, NanChang",
   locationLink: "https://www.google.com/maps/place/%E4%B8%AD%E5%9B%BD%E6%B1%9F%E8%A5%BF%E7%9C%81%E5%8D%97%E6%98%8C%E5%B8%82/@28.6808292,115.7395766,11z/data=!3m1!4b1!4m6!3m5!1s0x343ab856f20dafb1:0xf180919945bad83e!8m2!3d28.6820199!4d115.8579399!16zL20vMDIyOW41?entry=ttu",
   about:
-    "Full Stack Engineer focused on building products with extra attention to details",
+    "a Web-Designer, CSer and a Dreamer!",
   summary:
-    "As a Full Stack Engineer, I have successfully taken multiple products from 0 to 1. I lead teams effectively, ensuring an environment where people can do their best work. Currently, I work mostly with TypeScript, React, Node.js, and GraphQL. I have over 8 years of experience in working remotely with companies all around the world.",
+    "Passionate about Web development, I've explored projects in rCore Tutorial and TCP protocol. Skilled in TypeScript, Node.js, CSS, and Vue. With a focus on diligence and problem-solving, I aim to fuse creativity into Web Design and CS. My goal is to excel in Web Design, contributing to CS through ongoing learning and practical projects.",
   avatarUrl: "https://jgox-image-1316409677.cos.ap-guangzhou.myqcloud.com/avatar.png",
   personalWebsiteUrl: "https://aqpower.cn",
   contact: {
@@ -47,8 +47,8 @@ export const RESUME_DATA = {
   },
   education: [
     {
-      school: "NanChang Hangkong University ",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
+      school: "Nanchang Hangkong University",
+      degree: "Computer Science and Technology discipline",
       start: "2021",
       end: "2025",
     },
@@ -103,22 +103,34 @@ export const RESUME_DATA = {
     "TypeScript",
     "React/Next.js/Remix",
     "Node.js",
-    "GraphQL",
-    "Relay",
     "WebRTC",
   ],
   projects: [
     {
-      title: "Consultly",
+      title: "EasyBook",
       techStack: [
-        "Side Project",
+        "Vue",
         "TypeScript",
-        "Next.js",
         "Vite",
-        "GraphQL",
-        "WebRTC",
+        "SpringBoot",
+        "Tailwind CSS",
+        "Alibaba Cloud",
       ],
-      description: "A platform to build and grow your online business",
+      description: "colorful book, endless sharing!",
+      logo: ConsultlyLogo,
+      link: {
+        label: "consultly.com",
+        href: "http://easybook.aqpower.cn",
+      },
+    },
+    {
+      title: "rCoreTutorial",
+      techStack: [
+        "Rust",
+        "OS",
+        "qemu",
+      ],
+      description: "write an OS which can run on RISC-V in Rust from scratch!",
       logo: ConsultlyLogo,
       link: {
         label: "consultly.com",
@@ -126,147 +138,17 @@ export const RESUME_DATA = {
       },
     },
     {
-      title: "Monito",
-      techStack: ["Side Project", "TypeScript", "Next.js", "Browser Extension"],
-      description:
-        "Browser extension that records everything happening in a web application",
-      logo: MonitoLogo,
-      link: {
-        label: "monito.dev",
-        href: "https://monito.dev/",
-      },
-    },
-    {
-      title: "Jarocki.me",
-      techStack: ["Side Project", "Next.js", "MDX"],
-      description:
-        "My personal website and blog. Built with Next.js and Notion API",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://jarocki.me/",
-      },
-    },
-    {
-      title: "Minimal",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Minimalist calendars, habit trackers and planners generator",
-      logo: Minimal,
-      link: {
-        label: "useminimal.com",
-        href: "https://useminimal.com/",
-      },
-    },
-    {
-      title: "Barepapers",
-      techStack: ["Side Project", "Next.js", "Puppeteer"],
-      description:
-        "Generates beautiful wallpapers using random shapes and gradients",
-      logo: BarepapersLogo,
-      link: {
-        label: "barepapers.com",
-        href: "https://barepapers.com/",
-      },
-    },
-    {
-      title: "Year progress",
-      techStack: ["Side Project", "TypeScript", "Next.js"],
-      description: "Tracks current year progress and displays a countdown",
-      logo: YearProgressLogo,
-      link: {
-        label: "getyearprogress.com",
-        href: "https://getyearprogress.com/",
-      },
-    },
-    {
-      title: "Parabol",
+      title: "MessageWall",
       techStack: [
-        "Full Stack Developer",
-        "TypeScript",
-        "React",
+        "Vue",
         "Node.js",
-        "GraphQL",
       ],
-      description:
-        "The Agile meeting co-pilot that delivers better meetings with less effort",
-      logo: ParabolLogo,
+      description: "An anonymous message and photo board platform.",
+      logo: ConsultlyLogo,
       link: {
-        label: "github.com",
-        href: "https://parabol.co/",
+        label: "consultly.com",
+        href: "http://messagewall.aqpower.cn",
       },
-    },
-    {
-      title: "Evercast",
-      techStack: [
-        "Lead Frontend Developer",
-
-        "TypeScript",
-        "React",
-        "Node.js",
-        "GraphQL",
-      ],
-      description:
-        "Creative collaboration platform that combines video conferencing and HD media streaming",
-      logo: EvercastLogo,
-      link: {
-        label: "evercast.us",
-        href: "https://www.evercast.us/",
-      },
-    },
-    {
-      title: "Mobile Vikings",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for leading virtual mobile operator in Poland",
-      logo: MobileVikingsLogo,
-      link: {
-        label: "mobilevikings.pl",
-        href: "https://mobilevikings.pl/",
-      },
-    },
-    {
-      title: "Howdy",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Howdy is a place for you to join communities you care about",
-      logo: Howdy,
-      link: {
-        label: "play.google.com",
-        href: "https://howdy.co/",
-      },
-    },
-    {
-      title: "Tastycloud",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application for managing and displaying restaurant menus in kiosk mode",
-      logo: TastyCloudLogo,
-      link: {
-        label: "tastycloud.fr",
-        href: "https://www.tastycloud.fr/",
-      },
-    },
-    {
-      title: "Ambit",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with sharing your contact details",
-      logo: AmbitLogo,
-    },
-    {
-      title: "Bim",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Android application that helps with booking a table in a restaurants",
-      logo: BimLogo,
-    },
-    {
-      title: "Canal Digital GO",
-      techStack: ["Lead Android Developer", "Android", "Kotlin"],
-      description:
-        "Video streaming mobile application for Canal Digital subscribers",
-      logo: CDGOLogo,
     },
   ],
 } as const;
